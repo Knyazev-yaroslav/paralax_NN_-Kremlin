@@ -113,7 +113,7 @@ body {
 
 .images-parallax__clouds,
 .images-parallax__mountains,
-.images-parallax__human
+.images-parallax__city
 {
   position: absolute;
   width: 100%;
@@ -133,14 +133,14 @@ body {
 
 }
 
-.images-parallax__human {
+.images-parallax__city {
   background: url('../img/footer_obv.png') top / cover no-repeat;
   /* top: 45%; */
   z-index: 3;
 }
 
 @media (max-aspect-ration: 3/2) {
-  .images-parallax__human {
+  .images-parallax__city {
     background-position: 20% top;
   }
 }
